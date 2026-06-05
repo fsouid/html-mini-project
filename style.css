@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    background-color: #cafdff;
+    padding: 10px 24px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 100px);
+    background-color: #eadcff;
+    padding: 24px;
+}
+
+h1 {
+    font-size: 64px;
+    font-weight: 500;
+    color: #270101;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 60px;
+    color: #270101;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.subheader {
+    font-size: 24px;
+    color: #555;
+    margin: 16px 0 24px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1300px;
+    justify-content: space-between;
+}
+
+button {
+    padding: 8px 16px;
+    font-size: 18px;
+    color: white;
+    background-color: #05c7cf;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.logo {
+    width: 450px;
+}
+
+ul {
+    display: flex;
+}
+ 
+li {
+    list-style: none;
+    margin-left: 20px;
+    padding: 10px 15px;
+ }
+
+ .section__description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+
+ #home,
+ #about,
+ #discord,
+ #contact,
+ footer {
+    padding: 48px 0;
+ }
+
+
+/* Home */
+
+ #home {
+    background-color: #c5f388;
+    color: #333;
+ }
+ 
+
+/* About */
+
+ #about {
+    background-color: #f8ffdc;
+    color: #333;
+ }
+
+
+/* Discord */
+ 
+ #discord {
+    background-color: #cefeff;
+    color: #333;
+ }
+
+
+/* Contact */
+ 
+ #contact {
+    background-color: #dce9ff;
+    color: #333;
+ }
+
+ .about__img--wrapper {
+    width: 35%;
+ }
+
+
+ .section__description--wrapper {
+    width: 60%;
+ }
+
+
+ .about__img--wrapper,
+ .section__description--wrapper {
+        padding: 0 18px
+    }
+
+ img {
+    
+    width: 100%;
+    border-radius: 8px;
+ }
+
+
+ .section__description--para {
+    font-size: 36px;
+    line-height: 1.5;
+    margin: 20px 12px;
+ }
+
+
+ form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+ }
+
+input, textarea {
+    padding: 6px 12px;
+    margin-bottom: 24px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 18px;
+    }
+
+/* Footer */
+footer {
+    background-color: #aaf5ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer__logo {
+    max-width: 480px;
+    margin-bottom: 18px;
+}
+
+.footer__links {
+    margin-bottom: 32px;
+}
+
+.footer__link {
+    padding: 0px 16px;
+}
